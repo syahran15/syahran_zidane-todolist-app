@@ -1,0 +1,19 @@
+MAKE A TODOLIST WITH TODOIST
+1. BEGIN
+2. DISPLAY todoist_ui
+3. READ select_addTask
+4. DISPLAY adding_task_ui
+5. INPUT task_name
+6. INPUT task_description
+7. READ select_dueDate
+8. INPUT task_date
+9. IF "you have a project"
+        READ select_inbox 
+        INPUT select_project
+    ELSE
+        READ select_taskPriority
+10. IF "you need a reminder:
+        READ select_addReminder && INPUT timeRimender
+    ELSE 
+        READ select_addTask
+11. END
