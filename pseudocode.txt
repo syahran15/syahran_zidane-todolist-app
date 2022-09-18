@@ -8,8 +8,7 @@ MAKE A TODOLIST WITH TODOIST
 7. READ select_dueDate
 8. INPUT task_date
 9. IF "you have a project"
-        READ select_inbox 
-        INPUT select_project
+        READ select_inbox && INPUT select_project
     ELSE
         READ select_taskPriority
 10. IF "you need a reminder:
